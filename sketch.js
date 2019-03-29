@@ -1,6 +1,6 @@
 /*
- * @name Drawing
- * @description Generative painting program.
+ * @name Screensaver Thing
+ * @description Screensavery thingie
  */
 
 // All the paths
