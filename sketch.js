@@ -18,6 +18,7 @@ function setup() {
   current = createVector(0, 0);
   previous = createVector(0, 0);
   paths.push(new Path());
+  noCursor();
 };
 
 function draw() {
@@ -56,13 +57,9 @@ function draw() {
 }
 
 // Start it up
-/*function mousePressed() {
-  next = 0;
-  painting = true;
-  previous.x = random((windowWidth / 2) - 50, (windowWidth / 2) + 50);
-  previous.y = random((windowHeight / 2) - 50, (windowHeight / 2) + 50);
-  paths.push(new Path());
-}*/
+function mousePressed() {
+	fullscreen();
+}
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
